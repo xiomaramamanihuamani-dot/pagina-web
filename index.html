@@ -1,1 +1,337 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Xiomara Mamani Huamani | Administración de Negocios</title>
+
+  <meta name="description" content="Página personal y portafolio académico de Xiomara Mamani Huamani, estudiante de Administración de Negocios en la Universidad Católica San Pablo de Arequipa.">
+
+  <meta name="author" content="Xiomara Mamani Huamani">
+  <meta name="robots" content="index, follow">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f8fa;
+      color: #293444;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #172b4d;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    header h2 {
+      font-size: 21px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #9dc5f5;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #172b4d, #31577f);
+      color: white;
+      padding: 75px 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 55px;
+      flex-wrap: wrap;
+    }
+
+    .hero img {
+      width: 220px;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 18px;
+      border: 5px solid white;
+    }
+
+    .hero-text {
+      max-width: 550px;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      margin-bottom: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d8e8f8;
+      color: #172b4d;
+      padding: 11px 22px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1050px;
+      margin: auto;
+      padding: 65px 25px;
+    }
+
+    section h2 {
+      color: #172b4d;
+      font-size: 27px;
+      margin-bottom: 22px;
+      border-bottom: 3px solid #b7cee7;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      color: #31577f;
+      margin-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e5eef8;
+      color: #24466d;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .contact a {
+      color: #31577f;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #172b4d;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+      }
+
+      nav {
+        justify-content: center;
+      }
+
+      .hero {
+        text-align: center;
+        padding: 45px 20px;
+      }
+
+      .hero h1 {
+        font-size: 29px;
+      }
+
+      .hero img {
+        width: 190px;
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Xiomara Mamani</h2>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#formacion">Formación</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="hero" id="inicio">
+      <img src="foto.jpg" alt="Fotografía de Xiomara Mamani Huamani">
+
+      <div class="hero-text">
+        <p>BIENVENIDOS A MI PÁGINA PERSONAL</p>
+        <h1>Xiomara Mamani Huamani</h1>
+        <h3>Estudiante de Administración de Negocios</h3>
+        <p>
+          Universidad Católica San Pablo - Arequipa, Perú.
+          Un espacio donde comparto mi formación académica,
+          experiencias, proyectos y objetivos profesionales.
+        </p>
+        <a href="#sobre-mi" class="button">Conóceme</a>
+      </div>
+    </div>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <div class="card">
+        <p>
+          Soy Xiomara Mamani Huamani, estudiante de Administración
+          de Negocios en la Universidad Católica San Pablo.
+          Me considero una persona responsable, constante y
+          comprometida con mi crecimiento personal y académico.
+        </p>
+        <br>
+        <p>
+          Me interesa seguir desarrollando mis conocimientos,
+          fortalecer mis habilidades y adquirir nuevas experiencias
+          que contribuyan a mi formación profesional.
+        </p>
+        <br>
+        <p>
+          Mi lema personal es:
+          <strong>"Todo esfuerzo constante produce un resultado justo".</strong>
+        </p>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación académica</h2>
+      <div class="card">
+        <h3>Universidad Católica San Pablo</h3>
+        <p><strong>Carrera:</strong> Administración de Negocios</p>
+        <p><strong>Ubicación:</strong> Arequipa, Perú</p>
+        <p><strong>Formación:</strong> Estudios universitarios</p>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos y experiencias</h2>
+
+      <div class="card">
+        <h3>Proyecto de proyección social - Mis Canitas</h3>
+        <p>
+          Participación en un proyecto de acompañamiento a adultos
+          mayores en la casa de reposo Mis Canitas, ubicada en
+          Yanahuara. Se realizaron actividades de integración,
+          estimulación de la memoria, dinámicas recreativas y
+          acompañamiento emocional.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Trabajos académicos</h3>
+        <p>
+          Desarrollo de actividades y trabajos universitarios
+          relacionados con la administración, el análisis
+          organizacional y el aprendizaje de herramientas
+          para la gestión empresarial.
+        </p>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades e intereses</h2>
+
+      <div class="card">
+        <h3>Habilidades personales</h3>
+        <span class="tag">Responsabilidad</span>
+        <span class="tag">Constancia</span>
+        <span class="tag">Trabajo en equipo</span>
+        <span class="tag">Compromiso</span>
+        <span class="tag">Organización</span>
+        <span class="tag">Aprendizaje continuo</span>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Intereses académicos</h3>
+          <p>
+            Administración, gestión empresarial,
+            finanzas y desarrollo profesional.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Intereses personales</h3>
+          <p>
+            Aprender cosas nuevas, realizar actividades
+            recreativas y seguir desarrollándome personalmente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <div class="card contact">
+        <p>
+          Puedes conocer más sobre mi trayectoria y
+          formación a través de mis redes profesionales.
+        </p>
+        <p><strong>GitHub:</strong>
+          <a href="https://github.com/xiomaramamanihuamani-dot"
+          target="_blank">Mi perfil de GitHub</a>
+        </p>
+        <p><strong>Universidad:</strong>
+          Universidad Católica San Pablo
+        </p>
+        <p><strong>Ciudad:</strong> Arequipa, Perú</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Xiomara Mamani Huamani</p>
+    <p>Portafolio personal y académico</p>
+  </footer>
+
+</body>
+</html>
+
